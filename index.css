@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#home {
+    width: 500px;
+    background: darkred;
+    height: 50vh;
+    margin: 30px auto;
+    display: flex;
+    border-radius: 10px;
+}
+#heading {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+#dtn {
+    color: white;
+    font-size: 11px;
+    margin: 8px 5px 0 90px;
+    font-family: 'Happy Monkey', cursive;
+}
+
+#el {
+     font-family: timer;
+     width: 40px;
+     height: 35px;
+     border: 2px solid white;
+     color: white;
+     background: darkred;
+     border-radius: 5px;
+}
+#el:hover {
+    background: black;
+}
+
+#btn {
+    background: black;
+    color: red;
+    font-family: timer;
+    width: 140px;
+    margin: 0px 50px 10px;
+    height: 20vh;
+    font-size: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#btn2 {
+    background: black;
+    color: red;
+    font-family: timer;
+    width: 140px;
+    margin: 0px 50px 10px;
+    height: 20vh;
+    font-size: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+@font-face {
+  font-family: timer;
+  src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+
